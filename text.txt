@@ -1,1 +1,1 @@
-Some text in text.txt
+New some text in text.txt
