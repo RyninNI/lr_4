@@ -13,9 +13,10 @@ using bsoncxx::builder::basic::kvp;
 
 std::map<std::string, Session> SessionAgregator::currentConnections;
 
-void fryninni(bool answer)
+
+void f(int answer)
 {
-    if (answer == true)
+    if (answer == 1)
     {
         exit();
     }
