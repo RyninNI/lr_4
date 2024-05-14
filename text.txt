@@ -1,1 +1,1 @@
-NEWSOMETEXTINTEXT.TXT
+New some text in text.txt
