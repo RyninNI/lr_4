@@ -13,7 +13,6 @@ using bsoncxx::builder::basic::kvp;
 
 std::map<std::string, Session> SessionAgregator::currentConnections;
 
-
 void f(int answer)
 {
     if (answer == 1)
