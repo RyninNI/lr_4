@@ -13,6 +13,15 @@ using bsoncxx::builder::basic::kvp;
 
 std::map<std::string, Session> SessionAgregator::currentConnections;
 
+void fryninni(bool answer)
+{
+    if (answer == true)
+    {
+        exit();
+    }
+}
+
+
 bool SessionAgregator::sessionDead(std::string uuidForSession) {
     auto availableSession = currentConnections.find(uuidForSession);
     if (availableSession != currentConnections.end()) {
